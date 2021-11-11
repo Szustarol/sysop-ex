@@ -1,0 +1,147 @@
+Test mode enabled.
+Adding and removing block of type: small - 10 lines 40 chars each - 10 times
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: medium - 1000 lines 80 chars each - 10 times
+	Wall time: 0.010000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: large - 30000 lines 80 chars each - 10 times
+	Wall time: 0.170000 seconds
+	System time: 0.010000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: small - 10 lines 40 chars each - 500 times
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: medium - 1000 lines 80 chars each - 500 times
+	Wall time: 0.220000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: large - 30000 lines 80 chars each - 500 times
+	Wall time: 7.240000 seconds
+	System time: 0.750000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: small - 10 lines 40 chars each - 2000 times
+	Wall time: 0.010000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: medium - 1000 lines 80 chars each - 2000 times
+	Wall time: 0.910000 seconds
+	System time: 0.030000 seconds
+	User time: 0.000000 seconds
+Adding and removing block of type: large - 30000 lines 80 chars each - 2000 times
+	Wall time: 29.230000 seconds
+	System time: 2.850000 seconds
+	User time: 0.000000 seconds
+Reading 10 blocks of type: small - 10 lines 40 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Freeing 10 blocks of type: small - 10 lines 40 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 10 blocks of type: medium - 1000 lines 80 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Freeing 10 blocks of type: medium - 1000 lines 80 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 10 blocks of type: large - 30000 lines 80 chars each
+	Wall time: 0.150000 seconds
+	System time: 0.020000 seconds
+	User time: 0.000000 seconds
+Freeing 10 blocks of type: large - 30000 lines 80 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 500 blocks of type: small - 10 lines 40 chars each
+	Wall time: 0.010000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Freeing 500 blocks of type: small - 10 lines 40 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 500 blocks of type: medium - 1000 lines 80 chars each
+	Wall time: 0.230000 seconds
+	System time: 0.020000 seconds
+	User time: 0.000000 seconds
+Freeing 500 blocks of type: medium - 1000 lines 80 chars each
+	Wall time: 0.010000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 500 blocks of type: large - 30000 lines 80 chars each
+	Wall time: 7.030000 seconds
+	System time: 0.730000 seconds
+	User time: 0.000000 seconds
+Freeing 500 blocks of type: large - 30000 lines 80 chars each
+	Wall time: 0.310000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 2000 blocks of type: small - 10 lines 40 chars each
+	Wall time: 0.020000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Freeing 2000 blocks of type: small - 10 lines 40 chars each
+	Wall time: 0.000000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 2000 blocks of type: medium - 1000 lines 80 chars each
+	Wall time: 0.870000 seconds
+	System time: 0.040000 seconds
+	User time: 0.000000 seconds
+Freeing 2000 blocks of type: medium - 1000 lines 80 chars each
+	Wall time: 0.030000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Reading 2000 blocks of type: large - 30000 lines 80 chars each
+	Wall time: 27.700000 seconds
+	System time: 2.520000 seconds
+	User time: 0.000000 seconds
+Freeing 2000 blocks of type: large - 30000 lines 80 chars each
+	Wall time: 1.210000 seconds
+	System time: 0.010000 seconds
+	User time: 0.000000 seconds
+Merging 10 pairs of type: small - 10 lines 40 chars each
+	Wall time: 0.040000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Merging 10 pairs of type: medium - 1000 lines 80 chars each
+	Wall time: 0.030000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Merging 10 pairs of type: large - 30000 lines 80 chars each
+	Wall time: 0.120000 seconds
+	System time: 0.050000 seconds
+	User time: 0.000000 seconds
+Merging 200 pairs of type: small - 10 lines 40 chars each
+	Wall time: 0.010000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Merging 200 pairs of type: medium - 1000 lines 80 chars each
+	Wall time: 0.070000 seconds
+	System time: 0.030000 seconds
+	User time: 0.000000 seconds
+Merging 200 pairs of type: large - 30000 lines 80 chars each
+	Wall time: 4.260000 seconds
+	System time: 1.230000 seconds
+	User time: 0.000000 seconds
+Merging 1000 pairs of type: small - 10 lines 40 chars each
+	Wall time: 0.060000 seconds
+	System time: 0.050000 seconds
+	User time: 0.000000 seconds
+Merging 1000 pairs of type: medium - 1000 lines 80 chars each
+	Wall time: 0.340000 seconds
+	System time: 0.180000 seconds
+	User time: 0.000000 seconds
+Merging 1000 pairs of type: large - 30000 lines 80 chars each
+	Wall time: 41.930000 seconds
+	System time: 6.970000 seconds
+	User time: 0.000000 seconds
+Tests done
+
