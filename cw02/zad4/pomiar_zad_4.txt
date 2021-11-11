@@ -1,0 +1,36 @@
+gcc -DSYSFUN -Wall zad4-lib-sys.c -o zad4-sys.run
+gcc -Wall zad4-lib-sys.c -o zad4-lib.run
+gcc -Wall ../ntimes.c -o ntimes.run
+Testing for small file
+System version:
+Execution time of 500 executions: 
+			Wall time: 0.230000 seconds (0.000460 average)
+			System time: 0.090000 seconds (0.000180 average)
+			User time: 0.140000 seconds (0.000280 average)
+Lib version:
+Execution time of 500 executions: 
+			Wall time: 0.360000 seconds (0.000720 average)
+			System time: 0.180000 seconds (0.000360 average)
+			User time: 0.170000 seconds (0.000340 average)
+Testing for medium file
+System version:
+Execution time of 500 executions: 
+			Wall time: 0.530000 seconds (0.001060 average)
+			System time: 0.220000 seconds (0.000440 average)
+			User time: 0.310000 seconds (0.000620 average)
+Lib version:
+Execution time of 500 executions: 
+			Wall time: 0.500000 seconds (0.001000 average)
+			System time: 0.190000 seconds (0.000380 average)
+			User time: 0.260000 seconds (0.000520 average)
+Testing for large file
+System version:
+Execution time of 500 executions: 
+			Wall time: 11.410000 seconds (0.022820 average)
+			System time: 1.350000 seconds (0.002700 average)
+			User time: 10.000000 seconds (0.020000 average)
+Lib version:
+Execution time of 500 executions: 
+			Wall time: 11.450000 seconds (0.022900 average)
+			System time: 1.420000 seconds (0.002840 average)
+			User time: 9.960000 seconds (0.019920 average)

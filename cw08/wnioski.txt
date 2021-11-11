@@ -1,0 +1,3 @@
+Proszę zajrzeć do pliku wykres.png, z którego wynika, że metoda wielowątkowa generalnie jest wolniejsza dla tego problemu od jednego wątku,
+ jednak dla niektórych kombinacji jest inaczej - 
+np. tryb blokowy dla 3 wątków działa ponad trzykrotnie szybciej. Z kolei tryb "numbers" jest nieefektywny i w każdym przypadku działa wolniej.

@@ -1,0 +1,14 @@
+gcc -DSYSFUN -Wall zad3-lib-sys.c -o zad3-sys.run
+gcc -Wall zad3-lib-sys.c -o zad3-lib.run
+gcc -Wall ../ntimes.c -o ntimes.run
+Testing for dane.txt file
+System version:
+Execution time of 500 executions: 
+			Wall time: 11.780000 seconds (0.023560 average)
+			System time: 0.410000 seconds (0.000820 average)
+			User time: 11.260000 seconds (0.022520 average)
+Lib version:
+Execution time of 500 executions: 
+			Wall time: 11.960000 seconds (0.023920 average)
+			System time: 0.420000 seconds (0.000840 average)
+			User time: 11.410000 seconds (0.022820 average)
