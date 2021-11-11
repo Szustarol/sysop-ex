@@ -1,0 +1,37 @@
+gcc -Wall -c zad1-functions.c -o zad1-functions.o
+gcc -Wall zad1-sys.c zad1-functions.o -o zad1-sys.run
+gcc -Wall zad1-lib.c zad1-functions.o -o zad1-lib.run
+gcc -Wall ../ntimes.c -o ntimes.run
+Testing for small files
+System version:
+Execution time of 50 executions: 
+			Wall time: 0.040000 seconds (0.000800 average)
+			System time: 0.010000 seconds (0.000200 average)
+			User time: 0.010000 seconds (0.000200 average)
+Lib version:
+Execution time of 50 executions: 
+			Wall time: 0.020000 seconds (0.000400 average)
+			System time: 0.010000 seconds (0.000200 average)
+			User time: 0.010000 seconds (0.000200 average)
+Testing for medium files
+System version:
+Execution time of 50 executions: 
+			Wall time: 0.200000 seconds (0.004000 average)
+			System time: 0.100000 seconds (0.002000 average)
+			User time: 0.080000 seconds (0.001600 average)
+Lib version:
+Execution time of 50 executions: 
+			Wall time: 0.140000 seconds (0.002800 average)
+			System time: 0.010000 seconds (0.000200 average)
+			User time: 0.110000 seconds (0.002200 average)
+Testing for large files
+System version:
+Execution time of 50 executions: 
+			Wall time: 3.080000 seconds (0.061600 average)
+			System time: 1.550000 seconds (0.031000 average)
+			User time: 1.510000 seconds (0.030200 average)
+Lib version:
+Execution time of 50 executions: 
+			Wall time: 1.700000 seconds (0.034000 average)
+			System time: 0.050000 seconds (0.001000 average)
+			User time: 1.640000 seconds (0.032800 average)
