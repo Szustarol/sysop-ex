@@ -1,0 +1,4 @@
+Zarówno dla wartości M,N < 5 jak i (>5) program działa poprawnie.
+
+Czasami mogą pojawić się błędy związane z różną kolejnością wypisywania przez procesy potomne informacji na konsolę, 
+jednak nawet dla bardzo dużych wartości M,N ~ 2000 program działa poprawnie.

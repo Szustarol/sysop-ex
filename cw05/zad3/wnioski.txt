@@ -1,0 +1,64 @@
+Poniżej przedstawiono wyniki testów.
+Jak widać, dla danych > PIPE_BUF testy również przechodzą.
+
+gcc -Wall consumer.c -o consumer.run
+gcc -Wall producer.c -o producer.run
+rm -f test_fifo || true
+mkfifo test_fifo
+5 Producers and 1 consumer test.
+Testing for 40-byte chunks
+consumer_out contains input_files/input_1.
+consumer_out contains input_files/input_2.
+consumer_out contains input_files/input_3.
+consumer_out contains input_files/input_4.
+consumer_out contains input_files/input_5.
+Testing for 1000-byte chunks
+consumer_out contains input_files/input_1.
+consumer_out contains input_files/input_2.
+consumer_out contains input_files/input_3.
+consumer_out contains input_files/input_4.
+consumer_out contains input_files/input_5.
+Testing for 7000-byte chunks (>PIPE_BUF)
+consumer_out contains input_files/input_1.
+consumer_out contains input_files/input_2.
+consumer_out contains input_files/input_3.
+consumer_out contains input_files/input_4.
+consumer_out contains input_files/input_5.
+Testing for 50000-byte chunks (>PIPE_BUF)
+consumer_out contains input_files/input_1.
+consumer_out contains input_files/input_2.
+consumer_out contains input_files/input_3.
+consumer_out contains input_files/input_4.
+consumer_out contains input_files/input_5.
+rm test_fifo
+rm -f test_fifo || true
+mkfifo test_fifo
+1 Producer and 5 consumers test.
+Testing for 40-byte chunks
+consumer_out contains input_files/input_4.
+Testing for 9000-byte chunks
+consumer_out contains input_files/input_4.
+producer.run: nie znaleziono żadnego procesu
+consumer.run: nie znaleziono żadnego procesu
+rm test_fifo
+rm -f test_fifo || true
+mkfifo test_fifo
+5 producers and 5 consumers test
+Testing for 40-byte chunks
+consumer_out contains input_files/input_1.
+consumer_out contains input_files/input_2.
+consumer_out contains input_files/input_3.
+consumer_out contains input_files/input_4.
+consumer_out contains input_files/input_5.
+producer.run: nie znaleziono żadnego procesu
+consumer.run: nie znaleziono żadnego procesu
+Testing for 9000-byte chunks
+consumer_out contains input_files/input_1.
+consumer_out contains input_files/input_2.
+consumer_out contains input_files/input_3.
+consumer_out contains input_files/input_4.
+consumer_out contains input_files/input_5.
+producer.run: nie znaleziono żadnego procesu
+consumer.run: nie znaleziono żadnego procesu
+rm test_fifo		
+

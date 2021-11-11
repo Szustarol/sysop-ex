@@ -1,0 +1,40 @@
+Test mode enabled.
+Merging 30 pairs of type: small - 10 lines 40 chars each (no forks)
+	Wall time: 0.020000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Merging 30 pairs of type: medium - 1000 lines 80 chars each (no forks)
+	Wall time: 0.020000 seconds
+	System time: 0.000000 seconds
+	User time: 0.000000 seconds
+Merging 30 pairs of type: large - 30000 lines 80 chars each (no forks)
+	Wall time: 0.460000 seconds
+	System time: 0.180000 seconds
+	User time: 0.000000 seconds
+Merging 500 pairs of type: small - 10 lines 40 chars each (no forks)
+	Wall time: 0.010000 seconds
+	System time: 0.010000 seconds
+	User time: 0.000000 seconds
+Merging 500 pairs of type: medium - 1000 lines 80 chars each (no forks)
+	Wall time: 0.150000 seconds
+	System time: 0.100000 seconds
+	User time: 0.000000 seconds
+Merging 500 pairs of type: large - 30000 lines 80 chars each (no forks)
+	Wall time: 10.720000 seconds
+	System time: 2.680000 seconds
+	User time: 0.000000 seconds
+Merging 1000 pairs of type: small - 10 lines 40 chars each (no forks)
+	Wall time: 0.030000 seconds
+	System time: 0.020000 seconds
+	User time: 0.000000 seconds
+Merging 1000 pairs of type: medium - 1000 lines 80 chars each (no forks)
+	Wall time: 0.300000 seconds
+	System time: 0.160000 seconds
+	User time: 0.000000 seconds
+Merging 1000 pairs of type: large - 30000 lines 80 chars each (no forks)
+	Wall time: 28.750000 seconds
+	System time: 7.730000 seconds
+	User time: 0.000000 seconds
+Tests done
+Type help to see available commands
+>

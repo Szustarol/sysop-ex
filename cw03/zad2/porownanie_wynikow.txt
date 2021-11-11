@@ -1,0 +1,11 @@
+Na potrzebę tego doświadczenia zwiększyłem liczbę analizowanych plików do 24.
+Generalnie w większości przypadków wieloprocesowy program jest nieznacznie szybszy,
+jednak nie jest to reguła. 
+Dla mniejszej ilości plików, gdy występują kolizje w odczycie tego samego pliku przez
+kilka wątków, program diamteralnie zwalnia i staje się do 3-4 razy wolniejszy od programu
+jednoprocesowego.
+Wniosek jest następujący - w przypadku, gdy kilka procesów może konkurować o ten sam
+zasób niekorzystne jest wykorzystywanie rozwiązania wieloprocesowego, jednak
+gdy zadań do wykonania jest wiele i nie występuje kolizja w dostępie do zasobów,
+jest to korzystne rozwiązanie - oczywiście o ile dane są wystarczająco duże - w przeciwnym wypadku
+czas tworzenia nowego procesu jest niekorzystny w perspektywie pozostałych obliczeń.

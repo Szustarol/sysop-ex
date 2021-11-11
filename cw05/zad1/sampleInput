@@ -1,0 +1,11 @@
+s1 = ls -l / | grep usr
+#sample comment
+
+s2 = echo ala ma kota | tr [:lower:] [:upper:]
+s3 = cut -c 2- #end of line comment example
+s4 = echo done!
+
+s1
+s2
+s2 | s3
+s2 | s3 | s4

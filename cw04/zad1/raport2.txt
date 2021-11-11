@@ -1,0 +1,5 @@
+Wnioski z uruchamiania:
+	-zarówno ustawienia mask jak i ignore są dziedziczone 
+	zarówno przez fork jak i exec
+	-fork dziedziczy signal handler, w przypadku exec signal handler jest ustawiany na domyślny, co kończy się zakończeniem programu w przypadku SIGUSR1,
+	-maska sygnału jest dziedziczona, ale wraz z forkiem i exec, zerowane są oczekujące sygnały, więc sygnały zablokowane przed forkiem nie dotrą do dzieci.
